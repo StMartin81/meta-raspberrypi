@@ -1,0 +1,63 @@
+diff --git a/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.bin b/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.bin
+index 9c39208..b914838 120000
+--- a/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.bin
++++ b/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.bin
+@@ -1 +1 @@
+-../cypress/cyfmac43455-sdio.bin
+\ No newline at end of file
++../cypress/cyfmac43455-sdio-standard.bin
+\ No newline at end of file
+diff --git a/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.bin b/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.bin
+index 9c39208..b914838 120000
+--- a/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.bin
++++ b/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.bin
+@@ -1 +1 @@
+-../cypress/cyfmac43455-sdio.bin
+\ No newline at end of file
++../cypress/cyfmac43455-sdio-standard.bin
+\ No newline at end of file
+diff --git a/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,4-compute-module.bin b/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,4-compute-module.bin
+index 9c39208..b914838 120000
+--- a/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,4-compute-module.bin
++++ b/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,4-compute-module.bin
+@@ -1 +1 @@
+-../cypress/cyfmac43455-sdio.bin
+\ No newline at end of file
++../cypress/cyfmac43455-sdio-standard.bin
+\ No newline at end of file
+diff --git a/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.bin b/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.bin
+index 9c39208..b914838 120000
+--- a/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.bin
++++ b/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.bin
+@@ -1 +1 @@
+-../cypress/cyfmac43455-sdio.bin
+\ No newline at end of file
++../cypress/cyfmac43455-sdio-standard.bin
+\ No newline at end of file
+diff --git a/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,5-compute-module.bin b/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,5-compute-module.bin
+index 9c39208..b914838 120000
+--- a/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,5-compute-module.bin
++++ b/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,5-compute-module.bin
+@@ -1 +1 @@
+-../cypress/cyfmac43455-sdio.bin
+\ No newline at end of file
++../cypress/cyfmac43455-sdio-standard.bin
+\ No newline at end of file
+diff --git a/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,5-model-b.bin b/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,5-model-b.bin
+index 9c39208..b914838 120000
+--- a/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,5-model-b.bin
++++ b/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,5-model-b.bin
+@@ -1 +1 @@
+-../cypress/cyfmac43455-sdio.bin
+\ No newline at end of file
++../cypress/cyfmac43455-sdio-standard.bin
+\ No newline at end of file
+diff --git a/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,500.bin b/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,500.bin
+index 9c39208..b914838 120000
+--- a/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,500.bin
++++ b/debian/config/brcm80211/brcm/brcmfmac43455-sdio.raspberrypi,500.bin
+@@ -1 +1 @@
+-../cypress/cyfmac43455-sdio.bin
+\ No newline at end of file
++../cypress/cyfmac43455-sdio-standard.bin
+\ No newline at end of file

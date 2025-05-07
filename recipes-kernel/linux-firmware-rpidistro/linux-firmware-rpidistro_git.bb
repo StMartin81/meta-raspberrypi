@@ -7,7 +7,7 @@ SECTION = "kernel"
 
 LICENSE = "GPL-2.0-only & binary-redist-Cypress-rpidistro & Synaptics-rpidistro"
 LIC_FILES_CHKSUM = "\
-    file://debian/copyright;md5=291ee5385b4cf74b10c5fb5a46a7bbc6 \
+    file://debian/copyright;md5=454e44c688dc909e16223e4aee63568c \
 "
 # Where these are no common licenses, set NO_GENERIC_LICENSE so that the
 # license files will be copied from the fetched source.
@@ -16,10 +16,10 @@ NO_GENERIC_LICENSE[Synaptics-rpidistro] = "debian/copyright"
 LICENSE_FLAGS = "synaptics-killswitch"
 
 SRC_URI = "git://github.com/RPi-Distro/firmware-nonfree;branch=bookworm;protocol=https \
-    file://0001-Default-43455-firmware-to-standard-variant.patch \
+    file://0001-Default-firmware-to-standard-variants.patch \
 "
-SRCREV = "4b356e134e8333d073bd3802d767a825adec3807"
-PV = "20230625-2+rpt3"
+SRCREV = "c9d3ae6584ab79d19a4f94ccf701e888f9f87a53"
+PV = "20240709-2~bpo12+1+rpt3"
 S = "${WORKDIR}/git"
 
 inherit allarch
