@@ -49,6 +49,11 @@ CMDLINE_RNDIS ?= ""
 # That allows to keep the traditional network interface names
 CMDLINE_IFNAMES ?= "net.ifnames=0"
 
+CMDLINE_WIFI_WORKAROUNDS ?= "\
+    brcmfmac.roamoff=1 \
+    brcmfmac.feature_disable=0x282000 \
+    "
+
 CMDLINE = " \
     ${CMDLINE_ISOL_CPUS} \
     ${CMDLINE_DWC_OTG} \
@@ -61,6 +66,7 @@ CMDLINE = " \
     ${CMDLINE_DEBUG} \
     ${CMDLINE_RNDIS} \
     ${CMDLINE_IFNAMES} \
+    ${CMDLINE_WIFI_WORKAROUNDS} \
     "
 
 do_compile() {
